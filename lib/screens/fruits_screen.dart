@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:fruits/models/fruit_model.dart';
 import '../colors.dart';
@@ -47,7 +46,7 @@ class _FruitScreenState extends State<FruitScreen>
               children: <Widget>[
                 SizedBox(height: 10),
                 // _topBar(),
-                SizedBox(height: 10),
+                // SizedBox(height: 5),
                 _middleView(),
                 SizedBox(height: 5),
                 Expanded(child: _bottomView()),
@@ -59,31 +58,31 @@ class _FruitScreenState extends State<FruitScreen>
     );
   }
 
-  Widget _topBar() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: <Widget>[
-        Container(
-          padding: EdgeInsets.all(10),
-          decoration: BoxDecoration(
-              color: AppColors.gray,
-              shape: BoxShape.rectangle,
-              borderRadius: BorderRadius.all(Radius.circular(10))),
-          child: Icon(
-            Icons.navigate_before,
-            color: AppColors.black,
-          ),
-        ),
-        Container(
-          child: SvgPicture.asset(
-            'assets/images/signs.svg',
-            height: 30,
-            width: 20,
-          ),
-        ),
-      ],
-    );
-  }
+  // Widget _topBar() {
+  //   return Row(
+  //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  //     children: <Widget>[
+  //       Container(
+  //         padding: EdgeInsets.all(10),
+  //         decoration: BoxDecoration(
+  //             color: AppColors.gray,
+  //             shape: BoxShape.rectangle,
+  //             borderRadius: BorderRadius.all(Radius.circular(10))),
+  //         child: Icon(
+  //           Icons.navigate_before,
+  //           color: AppColors.black,
+  //         ),
+  //       ),
+  //       Container(
+  //         child: SvgPicture.asset(
+  //           'assets/images/signs.svg',
+  //           height: 30,
+  //           width: 20,
+  //         ),
+  //       ),
+  //     ],
+  //   );
+  // }
 
   Widget _middleView() {
     return Column(
@@ -100,7 +99,7 @@ class _FruitScreenState extends State<FruitScreen>
             ),
           ),
         ),
-        SizedBox(height: 40),
+        SizedBox(height: 20),
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 2),
           decoration: BoxDecoration(
