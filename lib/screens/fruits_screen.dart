@@ -217,7 +217,7 @@ class _FruitScreenState extends State<FruitScreen>
             ),
           ),
           Text(
-            '\$' + fruits[index].price,
+            'GHc' + fruits[index].price,
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w300,

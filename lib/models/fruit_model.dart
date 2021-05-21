@@ -13,7 +13,7 @@ final List<FruitModel> fruits = [
   FruitModel(
     name: "Strawberries",
     quantity: "1kg",
-    price: "5.4",
+    price: "28.54",
     description:
         "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae",
     imgUrl: "assets/images/stroveburry.png",
@@ -21,7 +21,7 @@ final List<FruitModel> fruits = [
   FruitModel(
     name: "Pineapple",
     quantity: "1kg",
-    price: "25.4",
+    price: "35.00",
     description:
         "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae",
     imgUrl: "assets/images/pineapple.png",
@@ -29,7 +29,7 @@ final List<FruitModel> fruits = [
   FruitModel(
     name: "Blueberries",
     quantity: "1kg",
-    price: "15.4",
+    price: "33.21",
     description:
         "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae",
     imgUrl: "assets/images/blueberry.png",
@@ -37,7 +37,7 @@ final List<FruitModel> fruits = [
   FruitModel(
     name: "Grapes",
     quantity: "1kg",
-    price: "25.4",
+    price: "25.10",
     description:
         "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae",
     imgUrl: "assets/images/grapes.png",
@@ -45,7 +45,7 @@ final List<FruitModel> fruits = [
   FruitModel(
     name: "Guava",
     quantity: "1kg",
-    price: "25.4",
+    price: "24.90",
     description:
         "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae",
     imgUrl: "assets/images/guava.png",
@@ -53,7 +53,7 @@ final List<FruitModel> fruits = [
   FruitModel(
     name: "Mango",
     quantity: "1kg",
-    price: "25.4",
+    price: "27.30",
     description:
         "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae",
     imgUrl: "assets/images/mango2.png",
