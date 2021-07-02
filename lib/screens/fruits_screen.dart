@@ -209,18 +209,18 @@ class _FruitScreenState extends State<FruitScreen>
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           Text(
-            fruits[index].quantity,
+            'GHc ' + fruits[index].price,
             style: TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.w400,
+              fontSize: 16,
+              fontWeight: FontWeight.w300,
               fontFamily: 'Quicksand',
             ),
           ),
           Text(
-            'GHc' + fruits[index].price,
+            fruits[index].quantity,
             style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w300,
+              fontSize: 12,
+              fontWeight: FontWeight.w400,
               fontFamily: 'Quicksand',
             ),
           ),

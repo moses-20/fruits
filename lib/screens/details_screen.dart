@@ -254,7 +254,7 @@ class _DetailScreenState extends State<DetailScreen> {
             size: 20,
           ),
           Text(
-            "GHc" + widget.fruit.price,
+            "GHc " + widget.fruit.price,
             style: TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: 20,
